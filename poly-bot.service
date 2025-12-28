@@ -1,0 +1,23 @@
+[Unit]
+Description=PolyArb Engine Trading Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/poly-arb-engine
+Environment="RUST_LOG=info"
+EnvironmentFile=/root/poly-arb-engine/.env
+ExecStart=/root/poly-arb-engine/poly-arb-engine
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+

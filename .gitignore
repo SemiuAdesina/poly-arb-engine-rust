@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Rust build artifacts
+/target
+**/*.rs.bk
+Cargo.lock
+
+# Logs
+logs/
+
+# Data files
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+**/*.DS_Store
+Thumbs.db
+
