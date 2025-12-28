@@ -569,7 +569,7 @@ This software is for educational purposes only. Trading cryptocurrencies and bin
 
 MIT License
 
-Copyright (c) 2024 PolyArb Engine Contributors
+Copyright (c) 2025 PolyArb Engine Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
